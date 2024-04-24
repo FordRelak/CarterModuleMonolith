@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarterModuleMonolith.Api", "CarterModuleMonolith.Api\CarterModuleMonolith.Api.csproj", "{8E8D26D2-D323-42DF-BFDA-B1BAC5D05C11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89E83914-5BB2-44B9-8BBC-31AEA3F919AF}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleOne", "ModuleOne", "{121C4E2A-1613-4621-A950-1CEECF83189C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarterModuleMonolith.ModuleOne", "CarterModuleMonolith.ModuleOne\CarterModuleMonolith.ModuleOne.csproj", "{5FF31339-D2BC-4B0C-99EA-31B271EFC56B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleTwo", "ModuleTwo", "{D0E4CF5B-8CCB-4033-81A2-8D3D5E53454C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarterModuleMonolith.ModuleTwo", "CarterModuleMonolith.ModuleTwo\CarterModuleMonolith.ModuleTwo.csproj", "{5FFBA6A2-FCA5-4020-94F4-69C725584008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E8D26D2-D323-42DF-BFDA-B1BAC5D05C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8D26D2-D323-42DF-BFDA-B1BAC5D05C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8D26D2-D323-42DF-BFDA-B1BAC5D05C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8D26D2-D323-42DF-BFDA-B1BAC5D05C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF31339-D2BC-4B0C-99EA-31B271EFC56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF31339-D2BC-4B0C-99EA-31B271EFC56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF31339-D2BC-4B0C-99EA-31B271EFC56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF31339-D2BC-4B0C-99EA-31B271EFC56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFBA6A2-FCA5-4020-94F4-69C725584008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFBA6A2-FCA5-4020-94F4-69C725584008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFBA6A2-FCA5-4020-94F4-69C725584008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFBA6A2-FCA5-4020-94F4-69C725584008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FF31339-D2BC-4B0C-99EA-31B271EFC56B} = {121C4E2A-1613-4621-A950-1CEECF83189C}
+		{5FFBA6A2-FCA5-4020-94F4-69C725584008} = {D0E4CF5B-8CCB-4033-81A2-8D3D5E53454C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32E98660-A7B6-44AB-8792-28DDF1FAFB42}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+﻿global using EntityTwoEntity = CarterModuleMonolith.ModuleTwo.Domain.EntityTwo;
